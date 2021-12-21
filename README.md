@@ -91,7 +91,15 @@ In *figure 2.2* the computed mask of the lungs is shown, while in *2.3* the mask
 
 <img width="739" alt="Fig  2 3" src="https://user-images.githubusercontent.com/61745838/146977662-a46e4757-52a1-4e84-8205-d924dbbe3461.png">
 
+This algorithm is fairly robust in most cases present in the dataset and, as mentioned in the original article, it was a useful tool for generating a vast amount of segmented data to use for training a machine learning model.<br>
+However the results are not always comparable with manually segmented images, where a doctor can very precisely define the borders of every organ.
 
+### 2.4 Conclusions
+Most of the aspects of this second part of the project were completely new to me, starting from the NIfTI1 file format, the medical applications and the tools I used, therefore making it challenging yet particularly engaging.<br>
+In addition, I experienced firsthand the challenges of generating enough data to train a model and how some experts come up with a solution, which was something I had only discussed during theory lessons.
+
+<br>
+<br>
 
 ## 3. References
 
@@ -105,6 +113,7 @@ https://homepages.inf.ed.ac.uk/rbf/HIPR2/sobel.htm
 https://wiki.cancerimagingarchive.net/display/Public/CT-ORG:+CT+volumes+with+multiple+organ+segmentations#61080890bcab02c187174a288dbcbf95d26179e8
 
 [4] Rister, B., Yi, D., Shivakumar, K. et al. CT-ORG, a new dataset for multiple organ segmentation in computed tomography. Sci Data 7, 381 (2020). https://doi.org/10.1038/s41597-020-00715-8
+
 [5] Fedorov A., Beichel R., Kalpathy-Cramer J., Finet J., Fillion-Robin J-C., Pujol S., Bauer C., Jennings D., Fennessy F.M., Sonka M., Buatti J., Aylward S.R., Miller J.V., Pieper S., Kikinis R. 3D Slicer as an Image Computing Platform for the Quantitative Imaging Network. Magnetic Resonance Imaging. 2012 Nov;30(9):1323-41. PMID: 22770690. PMCID: PMC3466397.
 
 ### Other resources used:
